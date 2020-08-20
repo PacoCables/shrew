@@ -1,0 +1,15 @@
+-I/home/imcci01/Downloads/ike/source
+-I/home/imcci01/Downloads/ike/source/ikec
+-I/home/imcci01/Downloads/ike/source/iked
+-I/home/imcci01/Downloads/ike/source/libike
+-I/home/imcci01/Downloads/ike/source/libidb
+-I/home/imcci01/Downloads/ike/source/libith
+-I/home/imcci01/Downloads/ike/source/liblog
+-I/home/imcci01/Downloads/ike/source/libip
+-DUNIX
+-DOPT_TIMEDLOCK
+-DOPT_NATT
+-DQT_THREAD_SUPPORT
+-o
+/home/imcci01/Downloads/ike/source/qikec/moc_qikec.cpp
+/home/imcci01/Downloads/ike/source/qikec/qikec.h

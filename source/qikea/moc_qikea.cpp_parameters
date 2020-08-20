@@ -1,0 +1,13 @@
+-I/home/imcci01/Downloads/ike/source
+-I/home/imcci01/Downloads/ike/source/ikec
+-I/home/imcci01/Downloads/ike/source/libike
+-I/home/imcci01/Downloads/ike/source/libidb
+-I/home/imcci01/Downloads/ike/source/libith
+-I/home/imcci01/Downloads/ike/source/liblog
+-DUNIX
+-DOPT_TIMEDLOCK
+-DOPT_NATT
+-DQT_THREAD_SUPPORT
+-o
+/home/imcci01/Downloads/ike/source/qikea/moc_qikea.cpp
+/home/imcci01/Downloads/ike/source/qikea/qikea.h
