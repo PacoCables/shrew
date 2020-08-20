@@ -39,7 +39,7 @@ Execute the "install-shrew.sh" bash script. This script consist of 3 steps:
 
 Steps one and three need elevated privilegies and I'm using sudo to achieve them. Thereby the user used to execute the script must be in the sudoers group.
 
-Afetr each step the user is prompted to continue or not. Please, review the output carefully t see if errors wirh severity greather tah warning appears.
+After each step the user is prompted to continue or not. Please, review the output carefully and verify that errors wirt severity greather tah warning don't appears.
 
 **VERY IMPORTANT**: 
 Read teh README.txt file before start. It containts the original README from ShRew Soft Inc.
