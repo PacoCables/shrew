@@ -28,7 +28,7 @@ INSTALLATION
 ------------
 
 - Download the zip file and extract
-- Rename the foalder master as ike
+- Rename the folder shrew-master as ike
 - Open a shell and go to ike folder 
 - Execute the "./install-shrew.sh" bash script. This script consist of 3 steps:
 
