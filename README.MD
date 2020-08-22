@@ -27,11 +27,10 @@ Minimum:
 INSTALLATION
 ------------
 
-Open a shell and clone this repo.
-
-Go to ike folder
-
-Execute the "install-shrew.sh" bash script. This script consist of 3 steps:
+- Download the zip file and extract
+- Rename the foalder master as ike
+- Open a shell and go to ike folder 
+- Execute the "./install-shrew.sh" bash script. This script consist of 3 steps:
 
 1. Install requeriments (apt)
 2. Compile sources and link (cmake and make)
@@ -42,6 +41,6 @@ Steps one and three need elevated privilegies and I'm using sudo to achieve them
 After each step the user is prompted to continue or not. Please, review the output carefully and verify that errors wirt severity greather tah warning don't appears.
 
 **VERY IMPORTANT**: 
-Read teh README.txt file before start. It containts the original README from ShRew Soft Inc.
+Read the README.txt file before start. It containts the original README from ShRew Soft Inc.
 
 
