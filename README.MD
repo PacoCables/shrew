@@ -6,7 +6,7 @@ ABOUT
 
 This patched version of ShRew contains the sources from ShRew Soft Inc modified to be executed on Linux platform with QT5 and OpenSSL 1.x.
 
-It's addressed to users of UbuntU 20.04+ or Debian9+, but You can try to install it on other Linux distriburion changing apt software manager for the corresponding to the distribution you choose.
+It's addressed to users of UbuntU 20.04+ or Debian9+, but You can try to install it on other Linux distribution, changing the apt software manager for the corresponding to the distribution of your choice.
 
 
 REQUIREMENTS
@@ -39,6 +39,7 @@ INSTALLATION
 Steps one and three need elevated privilegies and I'm using sudo to achieve them. Thereby the user used to execute the script must be in the sudoers group.
 
 After each step the user is prompted to continue or not. Please, review the output carefully and verify that errors wirt severity greather tah warning don't appears.
+
 
 **VERY IMPORTANT**: 
 Read the README.txt file before start. It containts the original README from ShRew Soft Inc.
