@@ -1,0 +1,13 @@
+[Unit]
+Description=IKE v1 daemon
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/usr/sbin/iked -l /var/log/iked.log -d 3 -p /run/iked.pid
+Type=simple
+RemainAfterExit=yes
+
+[Install]
+Alias=Iked
+WantedBy=multi-user.target

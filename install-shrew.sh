@@ -19,6 +19,8 @@ sudo make install
 sudo cp iked.conf /etc
 sudo iked
 sudo cp source/qikea/png/qikea.icns /usr/share/icons/
+sudo cp iked.service /etc/systemd/system
+sudo systemctl enable iked.service
 cat > /tmp/qikea.desktop << END_OF_DATA
 [Desktop Entry]
 Name=ShRew VPN
@@ -32,6 +34,7 @@ Keywords=ipsec;vpn
 Categories=Network;Network;Internet;Security
 END_OF_DATA
 sudo mv /tmp/qikea.desktop /usr/share/applications
+sudo service iked start
 cat << END_OF_PROCESS
 ***
 *** Installation completed. You can add program to the system menu or taskbar the program
